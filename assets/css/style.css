@@ -61,8 +61,17 @@ a:hover {
     border-color: #1FB1FB !important;
 }
 
+.splide__slide {
+    max-width: 481px;
+    max-height: 846px;
+}
+
 .splide__slide img {
     max-width: 481px;
 	height: auto;
 }
 
+.centerport {
+    width: 50%;
+    margin: 0 auto;
+}
