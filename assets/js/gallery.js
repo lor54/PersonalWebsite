@@ -22,6 +22,12 @@ document.addEventListener( 'DOMContentLoaded', function () {
 	splidemakex.on( 'active', function( Splide ) {
 		stopVideos();
 	});
+
+	var splidefutura = new Splide( '#image-slider-futura' ).mount(window.splide.Extensions);
+
+	splidefutura.on( 'active', function( Splide ) {
+		stopVideos();
+	});
 });
 
 document.addEventListener("click", function(){
